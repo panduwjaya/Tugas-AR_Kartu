@@ -1,0 +1,11 @@
+Model Information:
+* title:	Octopus 3d Scan
+* source:	https://sketchfab.com/3d-models/octopus-3d-scan-6bf2a53cb7344e33bf4c5c01cb742fc3
+* author:	Pantelis Kondylas (https://sketchfab.com/lismegalodon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Octopus 3d Scan" (https://sketchfab.com/3d-models/octopus-3d-scan-6bf2a53cb7344e33bf4c5c01cb742fc3) by Pantelis Kondylas (https://sketchfab.com/lismegalodon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

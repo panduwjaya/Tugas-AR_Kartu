@@ -1,0 +1,11 @@
+Model Information:
+* title:	Angry Octopus
+* source:	https://sketchfab.com/3d-models/angry-octopus-82696447156d4e068edd5c9a2bb6d49a
+* author:	guihim (https://sketchfab.com/guihim)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Angry Octopus" (https://sketchfab.com/3d-models/angry-octopus-82696447156d4e068edd5c9a2bb6d49a) by guihim (https://sketchfab.com/guihim) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

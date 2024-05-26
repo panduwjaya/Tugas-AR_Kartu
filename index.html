@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+  </head>
+  <body>
+    <a-scene
+      mindar-image="imageTargetSrc: ./pandu.mind; maxTrack: 10"
+      color-space="sRGB"
+      renderer="colorManagement: true, physicallyCorrectLights"
+      vr-mode-ui="enabled: false"
+      device-orientation-permission-ui="enabled: false"
+    >
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+      <a-assets>
+        <a-asset-item
+          id="angry_octopus"
+          src="./assets/3d-models/angry_octopus/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="happy_octopus"
+          src="./assets/3d-models/happy_octopus/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="happy_octupus_1"
+          src="./assets/3d-models/happy_octopus 1/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="mad_octopus"
+          src="./assets/3d-models/mad_octopus/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="octopus"
+          src="./assets/3d-models/octopus/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="octopus_1"
+          src="./assets/3d-models/octopus 1/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="octopus_2"
+          src="./assets/3d-models/octopus 2/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="octopus_3d"
+          src="./assets/3d-models/octopus_3d_scan/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="octopus_plant"
+          src="./assets/3d-models/octopus_plant/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="octopus_plush"
+          src="./assets/3d-models/octopus_plush/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-gltf-model
+          src="#angry_octopus"
+          rotation="-90 0 0"
+          position="0 -1 0"
+          scale="0.01 0.01 0.01"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-gltf-model
+          src="#happy_octopus"
+          rotation="-90 0 0"
+          position="0 -5 0"
+          scale="1 1 1"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 2">
+        <a-gltf-model
+          src="#happy_octupus_1"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.01 0.01 0.01"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 3">
+        <a-gltf-model
+          src="#mad_octopus"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.01 0.01 0.01"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 4">
+        <a-gltf-model
+          src="#octopus"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="1 1 1"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 5">
+        <a-gltf-model
+          src="#octopus_1"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.01 0.01 0.01"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 6">
+        <a-gltf-model
+          src="#octopus_2"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.01 0.01 0.01"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 7">
+        <a-gltf-model
+          src="#octopus_3d"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="1 1 1"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 8">
+        <a-gltf-model
+          src="#octopus_plant"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.01 0.01 0.01"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 9">
+        <a-gltf-model
+          src="#octopus_plush"
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.3 0.3 0.3"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>

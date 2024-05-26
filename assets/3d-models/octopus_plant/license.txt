@@ -1,0 +1,11 @@
+Model Information:
+* title:	Octopus Plant
+* source:	https://sketchfab.com/3d-models/octopus-plant-7ba0544c3fef46849d01818579abaaf6
+* author:	polimagine (https://sketchfab.com/polimagine)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Octopus Plant" (https://sketchfab.com/3d-models/octopus-plant-7ba0544c3fef46849d01818579abaaf6) by polimagine (https://sketchfab.com/polimagine) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
